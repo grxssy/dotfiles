@@ -1,0 +1,21 @@
+theme = "catppuccin_mocha"
+
+# [editor.lsp]
+# display-inlay-hints = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "file-name", "spinner"]
+center = ["version-control"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "|"
+
+[editor.gutters]
+layout = ["diagnostics", "spacer", "line-numbers", "diff"]
